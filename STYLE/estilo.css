@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+}
+.navbar-nav .nav-link.active, a.nav-link{ /*color de fuente del Ul y LI del nabvar */
+    color: red;
+    text-align: center;
+}
+
+h1, h2, h3{
+    text-align: center;
+    
+}
+.menu{
+    gap: 50px;
+    background-color: white;
+    padding: 15px;
+    
+}
+#acerca{
+   background-color: #fb3838;
+   margin: 1em;
+   border-radius: 5px;
+   padding: 2em;
+}
+.juego{
+    text-align: left;
+    list-style: none;
+    padding: 15px;
+    background-color: #c41111;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+h2{
+    margin: 20px;
+}
+
+legend{
+    padding: 25px;
+}
+.form{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    background-color: #e81717;
+    box-shadow: 2px 5px 8px rgb(255, 255, 255);
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 30px;
+    
+}
+
+#button{
+    margin-bottom: 1em;
+    background-color:#ff6868;
+    color: white;
+    border: none;
+}
+button:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background-color:#8d110c;
+    margin-top: 2em;
+}
+
